@@ -94,9 +94,9 @@ CREATE TABLE TBL_Tipo_Fone
 -- 4. Incluir dados nas tabelas.
 INSERT INTO TBL_CLiente (cod_cliente, nome_cliente, cod_est_civ, salario)
 VALUES
-	(1, 'João Silva', 1, 3000.00),
+	(1, 'Rener Silva', 1, 3000.00),
 	(2, 'Maria Oliveira', 2, 4500.00),
-	(3, 'José Santos', 3, 5000.00),
+	(3, 'Daniel Santos', 3, 5000.00),
 	(4, 'Ana Souza', 4, 2500.00),
 	(5, 'Carlos Lima', 5, 4000.00),
 	(6, 'Paula Mendes', 6, 5500.00),
@@ -147,7 +147,7 @@ VALUES
 INSERT INTO TBL_Func (cod_func, nome_func)
 VALUES
 	(1, 'Carlos Ferreira'),
-	(2, 'Joana Almeida'),
+	(2, 'Roseane Almeida'),
 	(3, 'Paulo Pereira'),
 	(4, 'Fernanda Santos'),
 	(5, 'Francisco Oliveira'),
@@ -198,7 +198,7 @@ VALUES
 
 INSERT INTO TBL_Produto (cod_produto, nome_produto, tipo_produto)
 VALUES
-	(1, 'Produto A', 'Tipo 1'),
+	(1, 'Fosforo', 'Tipo 1'),
 	(2, 'Produto B', 'Tipo 2'),
 	(3, 'Produto C', 'Tipo 3'),
 	(4, 'Produto D', 'Tipo 1'),
